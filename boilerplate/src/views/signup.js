@@ -1,5 +1,5 @@
 import React from 'react'
-import Register from '../components/user/registerUser'
+import Register from '../components/registerUser'
 import { Button, Card, Form, Alert, Container} from 'react-bootstrap';
 
 export default function signup() {
