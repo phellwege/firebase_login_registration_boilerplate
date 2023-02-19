@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from '../components/user/login'
+import Login from '../components/login'
 import { Button, Card, Form, Alert, Container} from 'react-bootstrap';
 
 export default function signin() {
