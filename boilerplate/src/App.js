@@ -5,7 +5,7 @@ import { AuthProvider } from './context/authContext';
 import Signin from './views/signin';
 import Signup from './views/signup';
 import ForgotPassword from './views/forgotPassword';
-// import Home from './views/home';
+import Home from './views/home';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <React.Fragment>
           <Routes>
             <Route path="/SignUp" element={<Signup />} />
-            {/* <Route exact path="/" element={<PrivateRoute><Home /></PrivateRoute>} /> */}
+            <Route exact path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
             <Route path="/SignIn" element={<Signin />} />
             <Route path="/forgotPassword" element={<ForgotPassword/>}/>
           </Routes>
